@@ -1,0 +1,186 @@
+.card .required{
+    /*color: #c2185b !important;*/
+    position: absolute;
+    bottom: 67px;
+    display: none;
+}
+.card .non-required{
+    /*color: #009688 !important;*/
+    position: absolute;
+    bottom: 67px;
+    display: none;
+}
+.card-header{min-height: 80px;}
+.card-article{min-height: 185px;}
+.card-article .center-align{width: 100%}
+.card-venue{
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+}
+.cursive{
+    margin-top: 8px !important;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.7rem
+}
+.font-cursive{
+    font-family: 'Sacramento', cursive;
+}
+.font-title{
+    font-family: 'Bariol';
+    font-weight: 400;
+}
+.full-width{width: 100%;}
+.divider-height{min-height: 1em;}
+.event-details-ul li:nth-child(odd){
+    font-size: 1.7rem;
+    font-family: 'Sacramento', cursive;
+}
+.event-details-ul li:nth-child(even){
+    padding-left: 2.6em;
+    color: #212121;
+}
+.event-content-header{
+    margin-top: -80px;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px;
+}
+.event-content-header .content-title,
+.myOrders .content-title
+{
+    font-family: 'Tangerine';
+    font-size: 3rem;
+    margin-top: 25px;
+}
+.event-description{margin-top: 2em;}
+.event-description .full-width{padding-right: 10%;}
+.event-description .content-description{
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    padding-right: 3px;
+    border-right: 1px solid #e0e0e0;
+}
+img.responsive-img, video.responsive-video{
+    margin: 0 auto;
+}
+.justified-gallery a{display: none;}
+.parallax-container{
+    /*height: 600px;*/
+}
+.card-desc-before-wrapper{
+    padding: 10px!important;
+}
+.card-desc-before{
+    height: 230px !important;
+    background: linear-gradient(270deg, #225f4f, #28e3b2);
+    background-size: 400% 400%;
+
+    -webkit-animation: CardBarColorAnim 9s ease infinite;
+    -moz-animation: CardBarColorAnim 9s ease infinite;
+    animation: CardBarColorAnim 9s ease infinite;
+}
+.card-desc{
+    padding-left: 0!important;
+}
+@-webkit-keyframes CardBarColorAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes CardBarColorAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes CardBarColorAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.errow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 0;
+    border-color: #EF5350 transparent transparent transparent;
+    float: left;
+}
+.psalmist-bg{
+    background: url('../images/backgrounds/candles-1359478_1920.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.psalmist .parallax-container{height: 300px}
+.psalmist .header{font-family: 'Tangerine';}
+.psalmist .header .title{margin: 0}
+.psalmist ul{padding-left: 1em;}
+.psalmist .details{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Tangerine';
+    font-size: 2.3rem;
+    font-weight: normal;
+}
+.psalmist .details p{
+    margin: 0;
+    margin-left: 1em;
+}
+.psalmist .details small{
+    font-family: 'Sacramento';
+    color: #e0e0e0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-decoration: underline;
+    display: block;
+}
+.psalmist .menu h4{
+    margin-bottom: 0;
+}
+.psalmist .menu .menu-sublist li{
+    direction:rtl;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.psalmist .order-login{
+    min-height: 270px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.psalmist .order-login .btn-flat{color: #9e9e9e;}
+.psalmist .glogin-name,
+.psalmist .wlogin-form{display: none;}
+.myOrders .menu-form label{color: rgba(0, 0, 0, 0.87);}
+.myOrders .menu-form input[type="number"]::-webkit-outer-spin-button,
+.myOrders .menu-form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.myOrders .menu-form input[type="number"] {
+    -moz-appearance: textfield;
+}
+.myOrders .menu-form .input-field i{display: block;}
+.myOrders .menu-form p{}
+/*@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .event-content-header{
+        margin-top: -50px;
+    }
+}*/
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    .event-content-header{margin-top: 20px;}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .event-content-header{margin-top: -50px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 1440px) {
+    .event-description{margin-top: 3em;}
+    .event-content-header{padding: 10px;}
+    .event-content-header .content-title,
+    .myOrders .content-title{
+        font-size: 2rem;
+        margin-top: 25px;
+    }
+}
